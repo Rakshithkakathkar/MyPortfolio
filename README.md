@@ -1,3 +1,4 @@
-# This is my personal portfolio in making!!
+# My portfolio
 
-I am currently working at AVEVA as an Associate Software Dev Engineer.
+Hey! Welcome to my portfolio!
+I am Rakshith Kakathkar and I am currently working at AVEVA as an Associate Software Dev Engineer.
