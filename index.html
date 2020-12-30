@@ -4,124 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Rakshith</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to my Component library!</h1>
-    <p>I am making a portfolio</p>
-
-    <hr>
-
-    <h2>@Typography</h2>
-
-    <h1>Biggest heading</h1>
-    <h2>Second biggest heading</h2>
-    <p>Normal free flowing text</p>
-    <small>Relatively smaller text</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-
-    <h3>Fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
-    <h3>Centered container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    
-    <h3>Unordered lists</h3>
-    
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>    
-    </ul>
-
-    <h3>Unordered Inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>Reverse Ordered list</h3>
-    <ol>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@Nav</h2>
-
-    <nav>
-        <div>Branding</div>
-        <ul>
-            <li>
-                <a href = "/"> Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">DevRaks</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/"> Home</a>
             </li>
-            <li>
-                <a href = "/"> Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html"> Projects</a>
             </li>
-            <li>
-                <a href = "/"> Blogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html"> Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@Header</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" />
+        <h1 class="hero-heading">Rakshith Kakathkar the <span class="heading-inverted">developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@Sections</h2>
-   
-    <section>
-        <h3>@White section</h3>
-        <p>Section with white background/p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, Javascript, Typescript, Angular and C#</p>
+        </div>
     </section>
 
-    <section>
-        <h3>@Off-White section</h3>
-        <p>Off site background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a href="/" class="link link-primary">See Projects</a>
+        </div>
     </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs, I like to document my journey of learning</p>
+            <a href="/" class="link link-primary">Read Blogs</a>
+        </div>
+    </section>
 
-    <h2>@Footer</h2>
-
-    <footer>
-        <div>Small heading here</div>
-        <ul>
-            <li>Social media 1</li>
-            <li>Social media 2</li>
-            <li>Social media 3</li>
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/Rakshithkakathkar">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rakshith-kakathkar/">Linkedin</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/dev_Rakshith">Twitter</a></li>
         </ul>
     </footer>
 
-    
-
-<div style="height: 30vh">
-
-</div>
 </body>
 
 </html>
